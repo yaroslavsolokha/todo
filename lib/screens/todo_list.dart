@@ -33,7 +33,7 @@ class _TodoListPageState extends State<TodoListPage> {
               },
             ),
             TextButton(
-              child: Text('Add'),
+              child: const Text('Add'),
               onPressed: () {
                 setState(() {
                   todoItems
